@@ -15,7 +15,7 @@
     ],
     "require": {
         "php": ">=5.6.0",
-        "illuminate/support": "^5.0|^6.0",
+        "illuminate/support": "dev-develop-8.x",
         "swagger-api/swagger-ui": "^3.1",
         "zircote/swagger-php": "^2.0"
     },
@@ -30,5 +30,11 @@
                 "Appointer\\Swaggervel\\SwaggervelServiceProvider"
             ]
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../support"
+        }
+    ]
 }
